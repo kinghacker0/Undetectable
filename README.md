@@ -15,7 +15,7 @@ Now select your options.
 
 <h3>Installation Termux</h3>
 
-$ bash install.sh
+$ bash Termux-install.sh
 
 $ bash Termux-UD.sh
 
